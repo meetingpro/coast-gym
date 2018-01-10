@@ -1,0 +1,10 @@
+-- base:
+
+http://www.reservetravel.com/v6/?siteid=41159&theme=new
+
+-- geo/gps, radius, check in, nights, locationLabel, currency
+
+http://www.reservetravel.com/v6/?siteid=41159&theme=new&type=geo&longitude=-95.253121&latitude=29.417753&radius=10&checkIn=03/16/2018&nights=2&locationLabel=2018%20Texas%20Mens%20Gymnastics%20State%20Championships&currency=USD
+
+
+
