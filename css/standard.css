@@ -429,3 +429,9 @@ header .headerLogo {
     float: left;
   }
 }
+
+/* removing errant script display none on results title  */
+
+.topPager.ArnPagerContainer {
+  display: block !important;
+}
