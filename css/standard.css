@@ -13,14 +13,15 @@ header .headerLogo {
 
 #orgHeader {
   border: none;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   padding: 0;
 }
 
 #orgHeader .cus-cont.cus-cont__header-nav_wrapper {
   width: 85%;
+  max-width: 1200px;
   margin: auto;
-  padding: 0;
+  padding: 0 0 20px;
 }
 
 #orgHeader .cus-cont.cus-cont__header-nav_wrapper:after {
@@ -28,6 +29,18 @@ header .headerLogo {
   content: '';
   clear: both;
 }
+
+/* super-header */
+
+.full-width_super-header h1 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 0;
+  color: #003366;
+}
+
+/* headerLogo */
 
 #orgHeader .headerLogo {
   display: block;
@@ -42,42 +55,10 @@ header .headerLogo {
   width: 100%;
 }
 
-@media screen and (min-width: 1145px) and (max-width: 1300px) {
-  #orgHeader .cus-cont.cus-cont__header-nav_wrapper {
-    width: 975px;
-  }
-  #orgHeader .headerLogo img {
-    width: 80%;
-  }
-  .orgNavStUl {
-    margin-top: 28px;
-  }
-}
-
-@media screen and (min-width: 1301px) and (max-width: 1450px) {
-  #orgHeader .cus-cont.cus-cont__header-nav_wrapper {
-    width: 1200px;
-  }
-  #orgHeader .headerLogo img {
-    width: 70%;
-    margin-left: 35%;
-  }
-  .orgNavStUl {
-    margin-top: 34px;
-  }
-}
-
-@media screen and (min-width: 1451px) {
-  #orgHeader .cus-cont.cus-cont__header-nav_wrapper {
-    width: 1325px;
-  }
-  #orgHeader .headerLogo img {
-    width: 63%;
-    margin-left: 47%;
-  }
-  .orgNavStUl {
-    margin-top: 35px;
-  }
+.headerLogo a {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 /* header navigation */
@@ -90,6 +71,7 @@ header .headerLogo {
   display: block;
   width: 80%;
   float: left;
+  margin-top: 85px;
 }
 
 .orgNav ul {
@@ -102,23 +84,17 @@ header .headerLogo {
   display: inline-block;
   position: relative;
   padding: 8px 12px;
-  transition: background-color 0.2s linear;
-  border-radius: 4px;
-}
-
-.orgNav li:hover {
-  background-color: #f80000;
+  margin: 0 5px;
 }
 
 .orgNav li a {
   display: inline-block;
-  color: #fff;
-  font-size: 16px;
+  color: #003366;
+  font-size: 24px;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
-  text-shadow: rgb(0, 0, 0) 1px 1px 1px;
   letter-spacing: 2px;
 }
 
@@ -203,7 +179,7 @@ header .headerLogo {
     width: 40px;
     height: 40px;
     float: right;
-    margin: 25px 30px;
+    margin: 56px 30px;
     padding-top: 9.5px;
     cursor: pointer;
   }
@@ -220,8 +196,8 @@ header .headerLogo {
     width: 100%;
     position: absolute;
     left: 0;
-    background: black;
-    top: 90px;
+    background: #e5e5e5;
+    top: 177px;
   }
   .cusCont__orgMNav,
   .cusCont__orgMNav {
@@ -229,7 +205,7 @@ header .headerLogo {
   }
 
   .cusCont__orgMNav .orgMNav {
-    width: 95%;
+    width: 100%;
     margin: auto;
   }
 
@@ -265,6 +241,7 @@ header .headerLogo {
     padding: 10px 5%;
     color: #fff;
     font-weight: 100;
+    text-shadow: 1px 1px 2px #777;
   }
 }
 
@@ -314,16 +291,16 @@ header .headerLogo {
 /* results loaded body */
 
 .SearchHotels #searchForm .ArnPrimarySearchOuterContainer {
-  background-color: #616161;
+  background-color: #cc0000;
 }
 
 #searchForm .ArnQuadSearchContainer.ArnPrimarySearchContainer {
-  background-color: #616161;
+  background-color: #cc0000;
 }
 
 #searchForm #theSubmitButton,
 #searchForm #theOtherSubmitButton {
-  background-color: #f80000;
+  background-color: #003366;
 }
 
 /* landing page search form overrides */
@@ -360,29 +337,6 @@ header .headerLogo {
 .ArnNoPropertyResults .ArnSearchHotelsImg .reserveHotel {
   color: #fff;
   text-shadow: 2px 2px #555444;
-}
-
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoCitySearch,
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoAddressSearch,
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoLandmarkSearch,
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoAirportSearch {
-  display: inline-block;
-  background-color: rgba(133, 96, 158, 0.6);
-}
-
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoCitySearch.selectedTab,
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoAddressSearch.selectedTab,
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoLandmarkSearch.selectedTab,
-.ArnNoPropertyResults #searchForm .ArnPrimarySearchOuterContainer .ArnGoAirportSearch.selectedTab {
-  background-color: rgba(133, 96, 158, 0.8);
-}
-
-.ArnNoPropertyResults #searchForm .ArnQuadSearchContainer.ArnPrimarySearchContainer {
-  background-color: rgba(236, 104, 61, 0.8);
-}
-
-.ArnNoPropertyResults #searchForm #theSubmitButton {
-  background-color: rgb(133, 96, 158);
 }
 
 /* for IE */
