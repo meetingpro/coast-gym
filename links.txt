@@ -10,3 +10,27 @@ http://www.reservetravel.com/v6/?siteid=41159&theme=new&type=geo&longitude=-95.2
 -- radius to 20mi
 
 http://www.reservetravel.com/v6/?siteid=41159&theme=new&type=geo&longitude=-95.253121&latitude=29.417753&radius=20&checkIn=03/16/2018&nights=2&locationLabel=2018%20Texas%20Mens%20Gymnastics%20State%20Championships&currency=USD
+
+
+- raw hotel list:
+
+Holiday Inn – Alvin: 276148
+Motel 6 – Alvin: 1561165
+La Quinta – Alvin: 1283619
+Best Western Plus – Manvel: 278272
+Hampton Inn – Pearland: 51210
+Holiday Inn Express – Pearland : 243434 
+Candlewood Suites – Pearland : 283293
+La Quinta Inn – Pearland : 235267
+Comfort Suites Pearland South: 280823
+Courtyard in Pearland : 252670
+
+276148,1561165,1283619,278272,51210,243434,283293,235267,280823,252670
+
+-- exp: radius and hotel list
+
+http://www.reservetravel.com/v6/?siteid=41159&theme=new&type=geo&longitude=-95.253121&latitude=29.417753&radius=13&checkIn=03/16/2018&nights=2&locationLabel=2018%20Texas%20Mens%20Gymnastics%20State%20Championships&currency=USD&properties=276148,1561165,1283619,278272,51210,243434,283293,235267,280823,252670
+
+-- exp: radius and hotel list, no radius
+
+http://www.reservetravel.com/v6/?siteid=41159&theme=new&type=geo&longitude=-95.253121&latitude=29.417753&checkIn=03/16/2018&nights=2&locationLabel=2018%20Texas%20Mens%20Gymnastics%20State%20Championships&currency=USD&properties=276148,1561165,1283619,278272,51210,243434,283293,235267,280823,252670
