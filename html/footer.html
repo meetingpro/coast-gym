@@ -67,3 +67,27 @@
   }
 </script>
 -->
+
+<script>
+  if (document.querySelector('#theArnProperty276148')) {
+    function addCusRateCallMsg() {
+      var rateCallBox = document.querySelector('#theArnProperty276148 .ArnRateCell');
+      var cusRateCallMsg = document.createElement('h5');
+      var cusRateCallMsgTxt = document.createTextNode('Host Hotel');
+      cusRateCallMsg.appendChild(cusRateCallMsgTxt);
+      rateCallBox.append(cusRateCallMsg);
+    }
+
+    function cusQueryForNoLongerSearching() {
+      console.log('cusQueryForNoLongerSearching called');
+      var cusSearchingElem = document.getElementById('searching');
+      if (cusSearchingElem) {
+        if (cusSearchingElem.style.display === 'none') {
+          return addCusRateCallMsg();
+        }
+      }
+      return setTimeout(cusQueryForNoLongerSearching, 1500);
+    }
+    cusQueryForNoLongerSearching();
+  }
+</script>
