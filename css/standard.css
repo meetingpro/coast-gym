@@ -21,7 +21,7 @@ header .headerLogo {
   width: 85%;
   max-width: 1200px;
   margin: auto;
-  padding: 0 0 20px;
+  padding: 0 0 5px;
 }
 
 #orgHeader .cus-cont.cus-cont__header-nav_wrapper:after {
@@ -47,7 +47,7 @@ header .headerLogo {
   width: 20%;
   float: left;
   margin-left: 0;
-  padding: 1.25% 0;
+  padding: 0;
 }
 
 #orgHeader .headerLogo img {
@@ -57,7 +57,7 @@ header .headerLogo {
 
 .headerLogo a {
   display: block;
-  max-width: 200px;
+  max-width: 150px;
   margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ header .headerLogo {
   display: block;
   width: 80%;
   float: left;
-  margin-top: 85px;
+  margin-top: 50px;
 }
 
 .orgNav ul {
@@ -84,7 +84,7 @@ header .headerLogo {
   display: inline-block;
   position: relative;
   padding: 8px 12px;
-  margin: 0 5px;
+  margin: 0 10px;
 }
 
 .orgNav li a {
