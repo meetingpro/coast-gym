@@ -389,3 +389,16 @@ header .headerLogo {
 .topPager.ArnPagerContainer {
   display: block !important;
 }
+
+/* host hotel info inside host listing card, under 'view rates' btn */
+
+.ArnRateCell h5 {
+  border: 2px solid #cc0000;
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #cc0000;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
