@@ -57,8 +57,8 @@ header .headerLogo {
 
 .headerLogo a {
   display: block;
-  max-width: 150px;
-  margin: 0 auto;
+  max-width: 175px;
+  margin: 5px auto;
 }
 
 /* header navigation */
@@ -71,7 +71,7 @@ header .headerLogo {
   display: block;
   width: 80%;
   float: left;
-  margin-top: 50px;
+  margin-top: 68px;
 }
 
 .orgNav ul {
@@ -395,9 +395,9 @@ header .headerLogo {
 .ArnRateCell h5 {
   border: 2px solid #cc0000;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 5px 10px;
   background-color: #cc0000;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: lighter;
   color: #fff;
   letter-spacing: 1.5px;
